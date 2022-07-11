@@ -7,7 +7,7 @@
         <remote name="VoltageOS-Devices"
                 fetch="https://github.com/VoltageOS-Devices" />
 
-        <remote name="VoltageOS-Devices"
+        <remote name="mizdrake7"
                 fetch="https://codeberg.org/mizdrake7" />
 
 
