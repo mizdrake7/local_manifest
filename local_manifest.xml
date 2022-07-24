@@ -13,9 +13,4 @@
         <project path="vendor/realme/r5x" name="vendor_realme_r5x-1" remote="mizdrake7" revision="twelve" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
 
-<!-- Replacement -->
-
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="12l" />
-
 </manifest>
