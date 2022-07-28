@@ -15,7 +15,7 @@
 
 <!-- Replacement -->
 
-        <remove-project name="frameworks_base-1" />
-        <project path="frameworks/base" name="frameworks_base-1" remote="mizdrake7" revision="fluid-12.1" />
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="fluid_framework" remote="mizdrake7" revision="fluid-12.1" />
 
 </manifest>
