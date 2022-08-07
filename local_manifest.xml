@@ -7,6 +7,9 @@
         <remote name="mizdrake7"
                 fetch="https://github.com/mizdrake7" />
 
+       <remote name="bheatleyyy"
+                fetch="https://github.com/bheatleyyy" />       
+
 <!-- device trees -->
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="cherish" />
@@ -17,4 +20,6 @@
 
         <remove-project name="android_frameworks_base" />
         <project path="frameworks/base" name="android_frameworks_base" remote="mizdrake7" revision="twelve-one" />
+
+        <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
 </manifest>
