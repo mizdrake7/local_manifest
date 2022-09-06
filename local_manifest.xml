@@ -19,7 +19,7 @@
 <!-- Replacement -->
 
         <remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base-2" remote="mizdrake7" revision="twelvedotone" /> 
+        <project path="frameworks/base" name="android_frameworks_base-2" remote="mizdrake7" revision="12.1" /> 
         
         <remove-project name="LineageOS/android_hardware_google_pixel-sepolicy" />
         <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
