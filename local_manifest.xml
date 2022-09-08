@@ -21,6 +21,6 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="12l" /> 
         
-        <remove-project name="platform/hardware/google/pixel-sepolicy" />
+        <remove-project name="hardware_google_pixel_sepolicy" />
         <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
 </manifest>
