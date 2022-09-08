@@ -12,15 +12,15 @@
 
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="lineage" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
 
 <!-- Replacement -->
 
-        <remove-project name="crdroidandroid/android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base-2" remote="mizdrake7" revision="12.1" /> 
+        <remove-project name="platform/frameworks/base" />
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="12l" /> 
         
-        <remove-project name="LineageOS/android_hardware_google_pixel-sepolicy" />
+        <remove-project name="platform/hardware/google/pixel-sepolicy" />
         <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
 </manifest>
