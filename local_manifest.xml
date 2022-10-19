@@ -16,6 +16,6 @@
 <!-- Replacement -->
 
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="12l" /> 
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="tiramisu" /> 
         
 </manifest>
