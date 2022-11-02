@@ -10,8 +10,8 @@
        <remote name="bheatleyyy"
                 fetch="https://github.com/bheatleyyy" />      
         
-       <remote name="arrow"
-                fetch="https://github.com/ArrowOS-Devices" />
+       <remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
 
 
 <!-- device trees -->
@@ -19,7 +19,7 @@
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r416183b1" name="android_prebuilts_clang_host_linux-x86_clang-r416183b1" remote="arrow" revision="arrow-11.0" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 <!-- Replacement -->
 
         <remove-project name="frameworks_base" />
