@@ -2,29 +2,19 @@
 
 <manifest>
 
-<!-- fetching sources -->      
+<!-- fetching sources -->
 
         <remote name="mizdrake7"
                 fetch="https://github.com/mizdrake7" />
 
-       <remote name="bheatleyyy"
-                fetch="https://github.com/bheatleyyy" />      
-        
-       <remote name="clang"
-                fetch="https://gitlab.com/Amritorock" />
-
-
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="evox-13" clone-depth="1" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+
 <!-- Replacement -->
 
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="12l" /> 
-        
-        <remove-project name="platform/hardware/google/pixel-sepolicy" />
-        <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="bheatleyyy" revision="r5x" />
+        <project path="frameworks/base" name="frameworks_base-1" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 </manifest>
