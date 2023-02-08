@@ -21,7 +21,6 @@
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         <remove-project name="frameworks_base" />
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" /> 
-     
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
+        
 </manifest>
