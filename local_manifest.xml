@@ -9,6 +9,9 @@
 
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
+                
+        <remote name="LineageOS"
+                fetch="https://github.com/LineageOS" />
         
 <!-- device trees -->
 
@@ -26,7 +29,7 @@
         <remove-project name="android_frameworks_av" />
         <project path="frameworks/av" name="android_frameworks_av" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
         
-        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
         <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
 </manifest>
