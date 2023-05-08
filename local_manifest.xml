@@ -16,7 +16,6 @@
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />        
 
-        <remove-project name="hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" remote="mizdrake7" revision="13-caf-sm8150" clone-depth="1" />
+
 
 </manifest>
