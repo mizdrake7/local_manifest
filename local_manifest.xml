@@ -28,5 +28,8 @@
 
         <remove-project name="android_frameworks_av" />
         <project path="frameworks/av" name="android_frameworks_av" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
+        
+        <remove-project name="android_frameworks_native" />
+        <project path="frameworks/native" name="android_frameworks_native" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
 </manifest>
