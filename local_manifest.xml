@@ -26,5 +26,7 @@
         
         <remove-project name="frameworks_native" />
         <project path="frameworks/native" name="frameworks_native" remote="mizdrake7" revision="13" clone-depth="1" />
-        
+
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
 </manifest>
