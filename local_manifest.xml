@@ -21,12 +21,4 @@
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
-        <remove-project name="frameworks_av" />
-        <project path="frameworks/av" name="frameworks_av" remote="mizdrake7" revision="13" clone-depth="1" />
-        
-        <remove-project name="frameworks_native" />
-        <project path="frameworks/native" name="frameworks_native" remote="mizdrake7" revision="13" clone-depth="1" />
-
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
 </manifest>
