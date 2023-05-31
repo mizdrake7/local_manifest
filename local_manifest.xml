@@ -24,6 +24,9 @@
         <remove-project name="frameworks_native" />
         <project path="frameworks/native" name="frameworks_native" remote="mizdrake7" revision="13" clone-depth="1" />
 
+        <remove-project name="bionic" />
+        <project path="bionic" name="bionic" remote="mizdrake7" revision="13" clone-depth="1" />
+
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
 </manifest>
