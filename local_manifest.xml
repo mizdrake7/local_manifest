@@ -14,7 +14,7 @@
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="evox-13" clone-depth="1" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
-        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
+        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
 <!-- Replacement -->
         <remove-project name="bionic" />
