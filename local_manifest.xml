@@ -18,7 +18,7 @@
 
 <!-- Replacement -->
         <remove-project name="bionic" />
-        <project path="bionic" name="bionic-1" remote="mizdrake7" revision="tiramisu-jem" clone-depth="1" />
+        <project path="bionic" name="bionic-1" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />            
         
