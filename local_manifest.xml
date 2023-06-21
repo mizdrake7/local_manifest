@@ -19,7 +19,7 @@
 <!-- Replacement -->
         
         <remove-project name="bionic" />
-        <project path="bionic" name="bionic-1" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
+        <project path="bionic" name="bionic-1" remote="mizdrake7" revision="tiramisu-jem" clone-depth="1" />
 
         <remove-project name="build" />
         <project path="build/make" name="build" remote="mizdrake7" revision="tiramisu-jem" clone-depth="1" />
