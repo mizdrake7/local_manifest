@@ -30,13 +30,11 @@
         <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
         <linkfile src="target" dest="build/target" />
         <linkfile src="tools" dest="build/tools" />
-        </project>
 
         <remove-project name="build_soong" />
         <project path="build/soong" name="build_soong" remote="mizdrake7" revision="tiramisu-jem" clone-depth="1" />
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-        </project>
         
         <remove-project name="system_core" />
         <project path="system/core" name="system_core" remote="mizdrake7" revision="tiramisu-jem" clone-depth="1" />
