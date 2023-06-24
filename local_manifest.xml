@@ -9,32 +9,15 @@
 
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
-                
-        <remote name="LineageOS"
-                fetch="https://github.com/LineageOS" />
-        
+
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="cherish-13" clone-depth="1" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x_eleven" remote="mizdrake7" revision="carbon" clone-depth="1" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="eleven" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
 
 <!-- Replacement -->
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />        
                
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-        
-        <remove-project name="android_frameworks_av" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-        
-        <remove-project name="android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-
-        <remove-project name="android_vendor_cherish" />
-        <project path="vendor/cherish" name="android_vendor_cherish" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 </manifest>
