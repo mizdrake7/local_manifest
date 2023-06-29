@@ -17,7 +17,7 @@
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="cherish-13" clone-depth="1" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
-        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
+        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
 <!-- Replacement -->
 
@@ -26,15 +26,6 @@
         <remove-project name="LineageOS/android_hardware_qcom_display" />
         <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-        
-        <remove-project name="android_frameworks_av" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-        
-        <remove-project name="android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
+        <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="mizdrake7" revision="main" clone-depth="1" />
 
-        <remove-project name="android_vendor_cherish" />
-        <project path="vendor/cherish" name="android_vendor_cherish" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 </manifest>
