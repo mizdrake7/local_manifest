@@ -16,7 +16,14 @@
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="derp-13" clone-depth="1" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
-        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="tombstone" clone-depth="1" />
+        <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
+      
+<!-- Extras -->
+
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />        
+               
+        <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="mizdrake7" revision="main" clone-depth="1" />
+
+        <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mizdrake7" revision="v4a" clone-depth="1" />
 
 </manifest>
