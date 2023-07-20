@@ -17,7 +17,10 @@
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="twelve" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
-<!-- Requirements -->
+<!-- Extras -->
+
+        <remove-project name="frameworks_base" />
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
