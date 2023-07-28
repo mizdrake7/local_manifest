@@ -28,8 +28,8 @@
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="mizdrake14" revision="13" clone-depth="1" />
 
-        <remove-project name="packages_apps_Settings" />
-        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="mizdrake7" revision="13" clone-depth="1" />
+        <remove-project name="packages_apps_Powerhub" />
+        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake7" revision="13" clone-depth="1" />
         
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
