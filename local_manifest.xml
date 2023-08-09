@@ -30,6 +30,9 @@
 
         <remove-project name="packages_apps_Powerhub" />
         <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake14" revision="13" clone-depth="1" />
+
+        <remove-project name="packages_apps_Launcher3" />
+        <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mizdrake7" revision="13" clone-depth="1" />
         
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
