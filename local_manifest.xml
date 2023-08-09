@@ -16,7 +16,7 @@
 
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="new" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage-13" clone-depth="1" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="thirteen" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
