@@ -26,7 +26,7 @@
         <project path="vendor/voltage" name="vendor_voltage" remote="mizdrake7" revision="13" clone-depth="1" />
     
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake14" revision="13" clone-depth="1" />
+        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
 
         <remove-project name="packages_apps_Powerhub" />
         <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake14" revision="13" clone-depth="1" />
