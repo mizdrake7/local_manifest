@@ -21,18 +21,6 @@
 
 <!-- Extras -->
 
-        <remove-project name="vendor_voltage" />
-        <project path="vendor/voltage" name="vendor_voltage" remote="mizdrake7" revision="13" clone-depth="1" />
-
-        <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
-
-        <remove-project name="packages_apps_Powerhub" />
-        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake7" revision="13" clone-depth="1" />
-
-        <remove-project name="packages_apps_Launcher3" />
-        <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mizdrake7" revision="13" clone-depth="1" />
-
         <remove-project name="CannedShroud/android_packages_apps_KProfiles" />
         <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="mizdrake7" revision="main" clone-depth="1" />
         
