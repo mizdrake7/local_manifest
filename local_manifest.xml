@@ -13,7 +13,6 @@
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
-
 <!-- device trees -->
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage-13" clone-depth="1" />
@@ -22,7 +21,6 @@
 
 <!-- Extras -->
 
-
         <remove-project name="vendor_voltage" />
         <project path="vendor/voltage" name="vendor_voltage" remote="mizdrake7" revision="13" clone-depth="1" />
 
@@ -30,7 +28,7 @@
         <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
 
         <remove-project name="packages_apps_Powerhub" />
-        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake14" revision="13" clone-depth="1" />
+        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake7" revision="13" clone-depth="1" />
 
         <remove-project name="packages_apps_Launcher3" />
         <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mizdrake7" revision="13" clone-depth="1" />
