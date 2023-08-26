@@ -38,6 +38,9 @@
 
         <remove-project name="packages_apps_Launcher3" />
         <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-electrified" revision="13" clone-depth="1" />
+
+        <remove-project name="packages_apps_Settings" />
+        <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-electrified" revision="13" clone-depth="1" />
         
         <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="voltage-electrified" revision="main" clone-depth="1" />
         
