@@ -11,7 +11,7 @@
                 fetch="https://github.com/mizdrake14" />
      
         <remote name="clang"
-                fetch="https://gitlab.com/mizdrake7" />
+                fetch="https://gitlab.com/Amritorock" />
 
         <remote  name="voltage-electrified"
                  fetch="https://github.com/VoltageOS-Electrified" />
@@ -41,7 +41,7 @@
         
         <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="voltage-electrified" revision="main" clone-depth="1" />
         
-        <project path="prebuilts/clang/host/linux-x86/clang-weebx" name="WeebX-Clang" remote="clang" revision="master" clone-depth="1" />
+        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mizdrake7" revision="v4a" clone-depth="1" />
 
