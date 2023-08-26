@@ -13,6 +13,9 @@
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 
+        <remote  name="voltage-electrified"
+                 fetch="https://github.com/VoltageOS-Electrified" />
+
 <!-- device trees -->
 
         <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="voltage-13" clone-depth="1" />
@@ -22,19 +25,18 @@
 <!-- Extras -->
 
         <remove-project name="vendor_voltage" />
-        <project path="vendor/voltage" name="vendor_voltage" remote="mizdrake7" revision="13" clone-depth="1" />
+        <project path="vendor/voltage" name="vendor_voltage" remote="voltage-electrified" revision="13" clone-depth="1" />
 
         <remove-project name="frameworks_base" />
-        <project path="frameworks/base" name="frameworks_base" remote="mizdrake7" revision="13" clone-depth="1" />
+        <project path="frameworks/base" name="frameworks_base" remote="voltage-electrified" revision="13" clone-depth="1" />
 
         <remove-project name="packages_apps_Powerhub" />
-        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="mizdrake7" revision="13" clone-depth="1" />
+        <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-electrified" revision="13" clone-depth="1" />
 
         <remove-project name="packages_apps_Launcher3" />
-        <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="mizdrake7" revision="13" clone-depth="1" />
+        <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-electrified" revision="13" clone-depth="1" />
         
-        <remove-project name="CannedShroud/android_packages_apps_KProfiles" />
-        <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="mizdrake7" revision="main" clone-depth="1" />
+        <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="voltage-electrified" revision="main" clone-depth="1" />
         
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
         
