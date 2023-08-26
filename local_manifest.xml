@@ -29,7 +29,10 @@
 
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="voltage-electrified" revision="13" clone-depth="1" />
-
+      
+        <remove-project name="frameworks_native" />
+        <project path="frameworks/native" name="frameworks_native" remote="voltage-electrified" revision="13" clone-depth="1" />
+        
         <remove-project name="packages_apps_Powerhub" />
         <project path="packages/apps/Powerhub" name="packages_apps_Powerhub" remote="voltage-electrified" revision="13" clone-depth="1" />
 
