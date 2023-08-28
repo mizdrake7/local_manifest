@@ -29,6 +29,9 @@
 
         <remove-project name="frameworks_base" />
         <project path="frameworks/base" name="frameworks_base" remote="voltage-electrified" revision="13" clone-depth="1" />
+
+        <remove-project name="frameworks_av" />
+        <project path="frameworks/av" name="frameworks_av" remote="voltage-electrified" revision="13" clone-depth="1" />
       
         <remove-project name="frameworks_native" />
         <project path="frameworks/native" name="frameworks_native" remote="voltage-electrified" revision="13" clone-depth="1" />
