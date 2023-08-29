@@ -42,6 +42,12 @@
         <remove-project name="packages_apps_Launcher3" />
         <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="voltage-electrified" revision="13" clone-depth="1" />
 
+        <remove-project name="packages_apps_Nfc" />
+        <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="voltage-electrified" revision="13" clone-depth="1" />
+
+        <remove-project name="packages_apps_DocumentsUI" />
+        <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" remote="voltage-electrified" revision="13" clone-depth="1" />
+
         <remove-project name="packages_apps_Settings" />
         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="voltage-electrified" revision="13" clone-depth="1" />
         
