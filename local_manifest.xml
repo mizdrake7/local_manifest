@@ -12,11 +12,14 @@
                 
         <remote name="LineageOS"
                 fetch="https://github.com/LineageOS" />
+
+        <remote name="CherishOS-Devices"
+                fetch="https://github.com/CherishOS-Devices" />
         
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="cherish-13" clone-depth="1" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="thirteen" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="CherishOS-Devices" revision="thirteen" clone-depth="1" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="CherishOS-Devices" revision="thirteen" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
 <!-- Replacement -->
