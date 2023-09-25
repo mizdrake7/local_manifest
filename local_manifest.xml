@@ -30,4 +30,7 @@
 
         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mizdrake7" revision="v4a" clone-depth="1" />
 
+        <remove-project name="android_frameworks_base" />
+        <project path="frameworks/base" name="android_frameworks_base" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
+
 </manifest>
