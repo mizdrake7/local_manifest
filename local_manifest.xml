@@ -42,4 +42,7 @@
         <remove-project name="android_frameworks_native" />
         <project path="frameworks/native" name="android_frameworks_native" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
+        <remove-project name="android_packages_apps_Launcher3" />
+        <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
+        
 </manifest>
