@@ -7,21 +7,15 @@
         <remote name="mizdrake7"
                 fetch="https://github.com/mizdrake7" />
 
-        <remote name="Amritorock"
-                fetch="https://github.com/Amritorock" />
-
         <remote name="clang"
                 fetch="https://gitlab.com/Amritorock" />
 <!-- device trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="derp-13" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="mizdrake7" revision="afterlife-13" clone-depth="1" />
         <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="mizdrake7" revision="thirteen" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
       
 <!-- Extras -->
-
-        <remove-project name="bionic" />
-        <project path="bionic" name="bionic-2" remote="mizdrake7" revision="13" clone-depth="1" />
 
         <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />        
                
