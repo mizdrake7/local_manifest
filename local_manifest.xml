@@ -2,47 +2,24 @@
 
 <manifest>
 
-<!-- fetching sources -->      
+<!-- Fetching sources -->      
 
         <remote name="mizdrake7"
                 fetch="https://github.com/mizdrake7" />
 
-        <remote name="clang"
-                fetch="https://gitlab.com/Amritorock" />
-                
-        <remote name="LineageOS"
-                fetch="https://github.com/LineageOS" />
-
         <remote name="CherishOS-Devices"
                 fetch="https://github.com/CherishOS-Devices" />
         
-<!-- device trees -->
+<!-- Trees -->
 
-        <project path="device/realme/r5x" name="device_realme_r5x" remote="CherishOS-Devices" revision="thirteen" clone-depth="1" />
-        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="CherishOS-Devices" revision="thirteen" clone-depth="1" />
+        <project path="device/realme/r5x" name="device_realme_r5x" remote="CherishOS-Devices" revision="fourteen" clone-depth="1" />
+        <project path="vendor/realme/r5x" name="vendor_realme_r5x" remote="CherishOS-Devices" revision="fourteen" clone-depth="1" />
         <project path="kernel/realme/r5x" name="Graveyard_r5x" remote="mizdrake7" revision="kprofiles" clone-depth="1" />
 
 <!-- Replacement -->
-
-        <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />        
-               
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
 
         <project path="packages/apps/KProfiles" name="android_packages_apps_KProfiles" remote="mizdrake7" revision="main" clone-depth="1" />
 
         <project path="packages/apps/ViPER4AndroidFX" name="packages_apps_ViPER4AndroidFX" remote="mizdrake7" revision="v4a" clone-depth="1" />
 
-        <remove-project name="android_frameworks_base" />
-        <project path="frameworks/base" name="android_frameworks_base" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-
-        <remove-project name="android_frameworks_av" />
-        <project path="frameworks/av" name="android_frameworks_av" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-
-        <remove-project name="android_frameworks_native" />
-        <project path="frameworks/native" name="android_frameworks_native" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-
-        <remove-project name="android_packages_apps_Launcher3" />
-        <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="mizdrake7" revision="tiramisu" clone-depth="1" />
-        
 </manifest>
