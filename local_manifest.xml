@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+<!-- fetching sources -->      
+
+        <remote name="Koushikdey2003"
+                fetch="https://github.com/Koushikdey2003" />
+
+<!-- device trees -->
+
+        <project path="device/xiaomi/air" name="device_xiaomi_air-recovery" remote="Koushikdey2003" revision="twrp-14" clone-depth="1" />
+
+</manifest>
