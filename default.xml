@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="aosp" fetch="https://android.googlesource.com/" review="https://android-review.googlesource.com/" />
   <remote  name="personal" fetch="https://github.com/Koushikdey2003/" revision="air-t-oss" />
+  <remote  name="mizdrake7" fetch="https://github.com/mizdrake7/" revision="air-t-oss" />    
   <default revision="master-kernel-build-2022" remote="aosp" sync-j="4" />
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android13-5.15" />
@@ -20,7 +21,7 @@
     <linkfile src="abi" dest="build/abi" />
     <linkfile src="static_analysis" dest="build/static_analysis" />
   </project>
-  <project path="kernel-5.15" name="kernel_xiaomi_air" remote="personal" >
+  <project path="kernel-5.15" name="kernel_xiaomi_air" remote="mizdrake7" >
   </project>
   <project path="kernel/tests" name="kernel/tests" revision="main" />
   <project path="kernel/configs" name="kernel/configs" />
