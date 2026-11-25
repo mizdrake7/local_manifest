@@ -53,12 +53,14 @@
     <project path="vendor/mediatek/ims"
              name="android_vendor_mediatek_ims"
              remote="mt6835-devs"
+             revision="android-17-qpr0"
              clone-depth="1" />
 
     <!-- Extras -->
     <project path="packages/apps/ViPER4AndroidFX"
              name="packages_apps_ViPER4AndroidFX"
              remote="mizdrake7"
+             revision="test"
              clone-depth="1" />
 
 </manifest>
